@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="style.css" rel="stylesheet">
+  <script src="app.js"></script>
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+  <div class="container">
+    <div class="leftside">
+    <div class="desktop-image"><img src="images/Result_1_600x380.png"></div>
+    <div class="img-mobile"><img src="images/illustration-woman-online-desktop-gaertianebuli.svg"></div>
+    </div>
+    <div class="rightside">
+     <h1>FAQ</h1>
+     <div class="class1">
+        <div id="question1">
+        <p>How many team members can I invite?</p>
+        <input type="button" id="img1" onclick="showAnswer(1)"></div>
+        <p id="answer1">can invite up to 2 additional users on the Free plan. There is no limit on 
+        team members for the Premium plan. can invite up to 2 additional users on the Free plan. </p>
+     </div>
+     <div class="class1">
+         <div id="question2">
+         What is the maximum file upload size?
+         <input type="button" id="img2" onclick="showAnswer(2)">
+        </div>
+        <p id="answer2">
+        No more than 2GB. All files in your account must fit your allotted storage space.</p>
+     </div>
+     <div class="class1">
+        <div id="question3">
+        How do I reset my password?
+        <input type="button" id="img3"  onclick="showAnswer(3)"></div>
+        <p id="answer3">
+        Click “Forgot password” from the login page or “Change password” from your profile page.
+        A reset link will be emailed to you.</p>
+     </div>
+     <div class="class1">
+     <div id="question4">
+     Can I cancel my subscription?
+     <input type="button" id="img4"  onclick="showAnswer(4)"></div>
+     <p id="answer4">
+     Yes! Send us a message and we’ll process your request no questions asked.</p>
+     </div>
+     <div class="class1">
+       <div id="question5">
+       Do you provide additional support?
+       <input type="button" id="img5"  onclick="showAnswer(5)">
+       </div>
+       <p id="answer5">
+       Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+     </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tamara Ratiani</a>.
+  </div>
+</body>
+</html>
